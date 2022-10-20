@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="./style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="emitter"></div>
+    <div class="container">
+        <div class="quiz" id="quiz1">
+            <h1>Olá, qual é o seu nome?</h1>
+            <br>
+            <p class="btn wrong" >Rayanne</p>
+            <p class="btn right" >Rayane</p>
+            <p class="btn wrong" >Raiane</p>
+            <p class="btn wrong" >Anne</p>
+
+        </div>
+        <div class="quiz" id="quiz2">
+            <h1>Qual seu sobrenome?</h1>
+            <br>
+            <p class="btn wrong">Cornetto</p>
+            <p class="btn wrong ">Bolsonaro</p>
+            <p class="btn wrong ">Jungkook</p>
+            <p class="btn right" >Cesconetto</p>
+           
+        </div>
+        <div class="quiz" id="quiz3">
+            <h1>Data de nascimento</h1>
+            <br>
+            <p class="btn wrong">11/09/2001</p>
+            <p class="btn wrong ">07/09/1822</p>
+            <p class="btn right" >21/10/1996</p>
+            <p class="btn wrong ">15/02/2013</p>
+           
+        </div>
+        <div class="quiz" id="quiz4">
+            <h1>Você é boa de...</h1>
+            <br>
+            <p class="btn right" >Prato</p>
+            <p class="btn wrong">Trabalho</p>
+            <p class="btn wrong ">Estudar</p>
+            <p class="btn wrong ">Cozinhar</p>
+            
+        </div>
+        <div class="quiz" id="quiz5">
+            <h1>Você é...</h1>
+            <br>
+            <p class="btn wrong">Inteligente</p>
+            <p class="btn wrong ">Gorda</p>
+            <p class="btn wrong" >Petista &#128544</p>
+            <p class="btn right ">Besta &#129315</p>
+            
+        </div>
+        <div class="quiz" id="quiz6">
+            <h1>Que dia é hoje? <span style='font-size:30px;'>&#129325;</span></h1>
+            <br>
+            <p class="btn wrong">Quinta</p>
+            <p class="btn wrong ">Sabado</p>
+            <p class="btn wrong" >Segunda</p>
+            <p class="btn right ">Sexta</p>
+        </div>
+        <div class="quiz" id="quiz7">
+            <h1>Analisando dados...</h1>
+            <br>
+            <p class="btn right anim" id="cont">Continuar</p>   
+        </div>
+        <div class="quiz" id="quiz8">
+            <h1>Essa é você?</h1>
+            <br>
+            <img src="./resources/ray.jpg " alt="ray">
+            <p class="btn right" id="cont">Sim</p>
+            <p class="btn right" id="cont">Claro</p> 
+        </div>
+        <div class="quiz" id="quiz9">
+            <h1>Feliz Aniversário Rayane!! &#128536</h1>
+            <br>
+            <img src="./resources/ray2.png" alt="ray">
+            <p class="btn" onClick="confetti()"> Mais Confetti</p>
+            <p class="btn"><a  href="https://api.whatsapp.com/send?phone=447838550202&text=Vai%20se%20ferrar">Mandar Obrigado <i class='bx bxl-whatsapp'></i></a></p>
+            <p class="pqp"> Arte desenhada 100% por mim. &#128544</p>
+        </div>
+    
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</body>
+</html>

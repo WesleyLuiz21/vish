@@ -53,5 +53,6 @@ right[8].addEventListener('click', function quiz9() {
     document.getElementById('quiz8').style.display = 'none';
     document.getElementById('quiz9').style.display = 'block';
     confetti();
+    document.getElementById('bts').src = 'https://www.youtube.com/embed/oeh499eKlW0?&autoplay=1';
 });
 

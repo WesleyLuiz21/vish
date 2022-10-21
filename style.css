@@ -46,7 +46,7 @@ h1 {
     display: none;
 }
 .wrongA {
-    border: 2px solid red;
+    background-color: red;
     transition: 200ms;
 }
 #wrong1 {
@@ -67,9 +67,14 @@ h1 {
 .quiz {
    transition: 500ms; 
 }
-img {
+#rayd {
     max-width: 350px;
     border: 5px solid rgb(76, 13, 158);
+    border-radius: 50%;
+}
+#art {
+    border: 5px solid rgb(76, 13, 158);
+    max-width: 350px;
 }
 .bx {
     position: relative;

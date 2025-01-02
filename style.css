@@ -44,6 +44,10 @@ h2 {
     font-family: 'arial';
     font-weight: 600;
     cursor: pointer;
+    transition: 400ms;
+}
+.btn:hover {
+    background-color: rgb(198, 74, 255);
 }
 #quiz2, #quiz3, #quiz4, #quiz5, #quiz6, #quiz7, #quiz8 ,#quiz9 {
     display: none;

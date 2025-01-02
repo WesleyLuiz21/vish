@@ -25,17 +25,17 @@ right[2].addEventListener('click', function quiz4() {
     document.getElementById('quiz4').style.display = 'block';
 });
 
-right[3].addEventListener('click', function quiz5() {
+right[4].addEventListener('click', function quiz5() {
     document.getElementById('quiz4').style.display = 'none';
     document.getElementById('quiz5').style.display = 'block';
 });
 
-right[4].addEventListener('click', function quiz6() {
+right[5].addEventListener('click', function quiz6() {
     document.getElementById('quiz5').style.display = 'none';
     document.getElementById('quiz6').style.display = 'block';
 });
 
-right[5].addEventListener('click', function quiz7() {
+right[6].addEventListener('click', function quiz7() {
     document.getElementById('quiz6').style.display = 'none';
     document.getElementById('quiz7').style.display = 'block';
 });
